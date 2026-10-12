@@ -1,0 +1,16 @@
+{
+  "name": "whiteboard-relay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal WebSocket relay for the client-authoritative Whiteboard app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
